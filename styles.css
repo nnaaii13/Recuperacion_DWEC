@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(34, 2, 33);
+    color: white;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+#tablero{
+    margin: auto;
+    width: 600px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tablero>button{
+    width: 200px;
+    height: 200px;
+    border-color: rgb(203, 104, 207);
+}
+
+#ganar{
+    visibility: hidden;
+}
+
+#perder{
+    visibility: hidden;
+}

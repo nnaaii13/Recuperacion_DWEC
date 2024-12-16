@@ -1,4 +1,7 @@
 Día 9 Diciembre:
 -Creación de archivos y organización.
 
+Día 16 Diciembre:
+-Linkar css y js a html.
+-Diseño visual del juego, implementado el título, el tablero y los estilos.
 
