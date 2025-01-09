@@ -13,3 +13,5 @@ Día 9 Enero:
     -He añadido los símbolos correspondientes al 3 en raya (X, O) con su color correspondiente.
     -He implementado que juegue la máquina, es decir, cuando nosotros seleccionamos una casilla, la máquina automáticamente
     busca una casilla vacía y pone su símbolo (O) en una casilla vacía al azar.
+    -He implementado para que no pueda modificar mi símbolo, antes podía cambiar mi botón X por O, he puesto un 
+    if para que ya no pase.

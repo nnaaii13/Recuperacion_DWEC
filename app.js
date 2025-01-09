@@ -3,6 +3,12 @@ let turno = "X"; //definimos el turno con el que empezaremos, es decir X u O. En
 
 //función que cambia el color de las casillas del tablero al hacer click
 function cambiarColor(element) {
+
+    //esto lo he implementado para que no pueda modificar mi símbolo, antes podía cambiar mi botón X por O, con este if ya no
+    if (element.innerHTML !== "") {
+        return;
+    }
+
     element.style.backgroundColor = color; 
     element.innerHTML = turno;
 
@@ -15,7 +21,7 @@ function cambiarColor(element) {
         turno = "X"; //cambia el simbolo a X
     }
 
-    if (turno === "O") { //si el turno es O, juega la máquina
+    if (turno === "O") { //si el turno que toca es O, juega la máquina
         setTimeout(maquina, 200); //el tiempo que tarda la máquina en responder
     }
 }
