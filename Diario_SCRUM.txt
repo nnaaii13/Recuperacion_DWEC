@@ -8,3 +8,8 @@ Día 16 Diciembre:
 Día 8 Enero:
     -He implementado colores para usar event listeners e ir avanzando con el tema de seleccionar los botones.
     -He implementado el botón de reset.
+
+Día 9 Enero:
+    -He añadido los símbolos correspondientes al 3 en raya (X, O) con su color correspondiente.
+    -He implementado que juegue la máquina, es decir, cuando nosotros seleccionamos una casilla, la máquina automáticamente
+    busca una casilla vacía y pone su símbolo (O) en una casilla vacía al azar.

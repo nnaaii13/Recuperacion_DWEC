@@ -1,5 +1,5 @@
 let color = "purple"; //definimos el color con el que vamos a empezar
-let turno = "X"; //definimos el turno con el que empezaremos, es decir X u O. En este caso empezamos con X
+let turno = "X"; //definimos el turno con el que empezaremos, es decir X u O. En este caso empezamos con X y empezamos nosotros en vez del ordenador
 
 //función que cambia el color de las casillas del tablero al hacer click
 function cambiarColor(element) {
