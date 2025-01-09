@@ -1,7 +1,10 @@
 Día 9 Diciembre:
--Creación de archivos y organización.
+    -Creación de archivos y organización.
 
 Día 16 Diciembre:
--Linkar css y js a html.
--Diseño visual del juego, implementado el título, el tablero y los estilos.
+    -Linkar css y js a html.
+    -Diseño visual del juego, implementado el título, el tablero y los estilos.
 
+Día 8 Enero:
+    -He implementado colores para usar event listeners e ir avanzando con el tema de seleccionar los botones.
+    -He implementado el botón de reset.
