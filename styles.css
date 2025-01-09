@@ -19,6 +19,7 @@ h1, h3 {
     width: 150px;
     height: 150px;
     border-color: rgb(203, 104, 207);
+    font-size: 3em;
 }
 
 #ganar {
