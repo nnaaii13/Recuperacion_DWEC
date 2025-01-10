@@ -22,12 +22,10 @@ h1, h3 {
     font-size: 3em;
 }
 
-#ganar {
-    visibility: hidden;
-}
-
-#perder {
-    visibility: hidden;
+.resultado {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 .resetear{
