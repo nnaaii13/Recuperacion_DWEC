@@ -46,6 +46,7 @@ function maquina() {
             //elige una casilla vacía
             if (Math.random() < 1 / (botones.length - i)) { //con esto haremos que seleccione una de las casillas vacías al azar
                 casillaElegida = botones[i];
+                console.log("Casilla elegida "+ botones[i]);
             }
         }
     }
