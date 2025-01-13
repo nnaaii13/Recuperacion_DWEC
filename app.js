@@ -64,13 +64,13 @@ function maquina() {
     comprobarGanador();
 }
 
-//función para comrpobar si hay un ganador
+//función para comrpobar si hay un ganador, esta función la hice con ayuda de vídeos/ia
 function comprobarGanador() {
     const botones = Array.from(document.querySelectorAll("#tablero button")); //array para guardar las posibles combinaciones para poder ganar el juego
     const combinaciones = [
-        [0, 1, 2], [3, 4, 5], [6, 7, 8], // filas
-        [0, 3, 6], [1, 4, 7], [2, 5, 8], // columnas
-        [0, 4, 8], [2, 4, 6]  // diagonales
+        [0, 1, 2], [3, 4, 5], [6, 7, 8], //filas
+        [0, 3, 6], [1, 4, 7], [2, 5, 8], //columnas
+        [0, 4, 8], [2, 4, 6]  //diagonales
     ];
 
     let ganar = false;
@@ -97,7 +97,7 @@ function mostrarMensaje(resultado) {
     } else {
         mensaje.innerHTML = "Has perdido...";
     }
-
+    
     document.getElementById("resultado").innerHTML = ""; //esto elimina el mensaje anterior
     document.getElementById("resultado").appendChild(mensaje); 
 
